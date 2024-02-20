@@ -22,7 +22,6 @@ img {
     display: grid;
     grid-template-rows: 10% 30% 20%;
     align-items: center;
-    padding-left: 10%;
 }
 
 .sidebar ul, .sidebar li {
@@ -33,6 +32,7 @@ img {
 .sidebar ul {
     display: grid;
     gap: 16px;
+    padding-left: 10%;
 }
 
 .sidebar-title, .sidebar li{
@@ -42,8 +42,12 @@ img {
 }
 
 .sidebar-title img {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+.sidebar-title {
+    padding-left: 5%;
 }
 
 .header {
