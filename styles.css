@@ -52,6 +52,9 @@ img {
 
 .header {
     background-color: lightcyan;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
 }
 
 .main-content {
