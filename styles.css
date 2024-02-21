@@ -67,6 +67,10 @@ img {
     justify-content: flex-start !important;
 }
 
+.search-section, .welcome-section {
+    margin-left: 5%;
+}
+
 #big-avatar-icon {
     width: 80px;
     height: 80px;
@@ -79,6 +83,32 @@ img {
 
 #search-bar {
     flex: 1;
+    border-radius: 10px;
+    border-style: none;
+    height: 25px;
+    background-color: lightgray;
+}
+
+#search-bar::placeholder {
+    padding-left: 12px;
+}
+
+.welcome-text h2 {
+    margin: 0;
+}
+
+.button-group, .profile-info-section {
+    justify-content: flex-end !important;
+    margin-right: 5%;
+}
+
+.button-group button {
+    border-radius: 20px;
+    border-style: none;
+    width: 100px;
+    height: 35px;
+    background-color: royalblue;
+    color: white;
 }
 
 .main-content {
