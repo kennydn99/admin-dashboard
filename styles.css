@@ -113,4 +113,20 @@ img {
 
 .main-content {
     background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.project-section {
+    background-color: lightsalmon;
+    grid-row: 1 / 3;
+}
+
+.announcements-section {
+    background-color: lightgoldenrodyellow;
+}
+
+.trending-section {
+    background-color: lightseagreen;
 }
