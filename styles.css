@@ -76,7 +76,7 @@ img {
     height: 80px;
 }
 
-#small-avatar {
+#small-avatar, .trend-avatar {
     width: 40px;
     height: 40px;
 }
@@ -204,5 +204,32 @@ hr, .note-container {
 .note-container p {
     margin: 0;
     font-size: 12px;
+    color: rgb(77, 76, 76);
+}
+
+.trend {
+    padding: 0;
+    padding-left: 32px;
+    align-items: flex-start;
+}
+
+.trend-profile {
+    display: flex;
+    gap: 16px;
+}
+
+.tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.handle {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.tag:nth-child(2) {
+    font-size: 14px;
     color: rgb(77, 76, 76);
 }
