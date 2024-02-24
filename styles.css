@@ -2,6 +2,7 @@ body,
 html {
   height: 100%;
   margin: 0;
+  font-family: "Outfit", sans-serif;
 }
 
 .container {
@@ -17,7 +18,7 @@ img {
 }
 
 .sidebar {
-    background-color: aquamarine;
+    background-color: #15803d;
     grid-row: 1 / 3;
     display: grid;
     grid-template-rows: 10% 30% 20%;
@@ -38,12 +39,18 @@ img {
 .sidebar-title, .sidebar li{
     display: flex;
     gap: 8px;
+    align-items: flex-end;
+    filter: invert(1);
+}
+
+.sidebar-title {
     align-items: center;
 }
 
 .sidebar-title img {
     width: 35px;
     height: 35px;
+    color: white;
 }
 
 .sidebar-title {
@@ -51,7 +58,8 @@ img {
 }
 
 .header {
-    background-color: lightcyan;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -86,10 +94,7 @@ img {
     border-radius: 10px;
     border-style: none;
     height: 25px;
-    background-color: lightgray;
-}
-
-#search-bar::placeholder {
+    background-color: #e5e7eb;
     padding-left: 12px;
 }
 
@@ -107,12 +112,17 @@ img {
     border-style: none;
     width: 100px;
     height: 35px;
-    background-color: royalblue;
+    background-color: #15803d;
+    font-weight: 600;
     color: white;
 }
 
+button:hover {
+    background-color: #23d464;
+}
+
 .main-content {
-    background-color: yellowgreen;
+    background-color: #e5e7eb;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -136,7 +146,7 @@ h3 {
 }
 
 .card, .card-side {
-    background-color: beige;
+    background-color: #fafafa;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; 
@@ -150,7 +160,7 @@ h3 {
     display: flex;
     flex-direction: column;
     padding-left: 16px;
-    border-left: 8px solid orangered;
+    border-left: 8px solid #fdba74;
     position: relative;
 }
 
